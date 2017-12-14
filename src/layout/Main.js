@@ -13,7 +13,6 @@ const fourthImage ={
   backgroundImage: "url('img/lamboMot.png')"
 };
 
-
 export default class Main extends React.Component {
   render () {
     return (
@@ -29,30 +28,14 @@ export default class Main extends React.Component {
           <div className="carousel-inner" role="listbox">
             {/* <!-- Slide One - Set the background image for this slide in the line below --> */}
             <div className="carousel-item active" style={firstImage}>
-              <div className="carousel-caption d-none d-md-block">
-                <h3>First Slide</h3>
-                <p>This is a description for the first slide.</p>
-              </div>
             </div>
             {/* <!-- Slide Two - Set the background image for this slide in the line below --> */}
             <div className="carousel-item" style={secondImage}>
-              <div className="carousel-caption d-none d-md-block">
-                <h3>Second Slide</h3>
-                <p>This is a description for the second slide.</p>
-              </div>
             </div>
             {/* <!-- Slide Three - Set the background image for this slide in the line below --> */}
             <div className="carousel-item" style={thirdImage}>
-              <div className="carousel-caption d-none d-md-block">
-                <h3>Third Slide</h3>
-                <p>This is a description for the third slide.</p>
-              </div>
             </div>
             <div className="carousel-item" style={thirdImage}>
-              <div className="carousel-caption d-none d-md-block">
-                <h3>Fourth Slide</h3>
-                <p>This is a description for the fourth slide.</p>
-              </div>
             </div>
           </div>
           <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -66,16 +49,39 @@ export default class Main extends React.Component {
         </div>
       </header>
 
-      {/* <!-- Page Content --> */}
-      {/* <section className="py-5">
-        <div className="container">
-          <h1><b><i>RIBBLE VALLEY Tyre &amp; Auto Services</i></b></h1>
-          <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the
-            <code>half-slider.css</code>file.</p>
-        </div>
-      </section> */}
 <br />
 {/* <!-- Features Section --> */}
+<section>
+
+  <div className="card-deck">
+  <div className="card">
+      <img className="card-img-top" src="http://placehold.it/500x325" alt="Card image cap" />
+  <div className="card-body">
+    <h4 className="card-title">Card title</h4>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div className="card">
+  <img className="card-img-top" src="http://placehold.it/500x325" alt="Card image cap" />
+  <div className="card-body">
+    <h4 className="card-title">Card title</h4>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div className="card">
+  <img className="card-img-top" src="http://placehold.it/500x325" alt="Card image cap" />
+  <div className="card-body">
+    <h4 className="card-title">Card title</h4>
+    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" className="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+</section>
+<hr />
 <section>
   <div className="container">
       <div className="row">
