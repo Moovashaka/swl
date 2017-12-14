@@ -1,14 +1,18 @@
 import React from 'react';
 
 const firstImage ={
-  backgroundImage: "url('img/rvtaBays.png')"
+  backgroundImage: "url('img/rvtalogo2.png')"
 };
 const secondImage ={
   backgroundImage: "url('img/rvtaTyres.png')"
 };
 const thirdImage ={
+  backgroundImage: "url('img/rvtaBays.png')"
+};
+const fourthImage ={
   backgroundImage: "url('img/lamboMot.png')"
 };
+
 
 export default class Main extends React.Component {
   render () {
@@ -20,6 +24,7 @@ export default class Main extends React.Component {
             <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
           </ol>
           <div className="carousel-inner" role="listbox">
             {/* <!-- Slide One - Set the background image for this slide in the line below --> */}
@@ -46,7 +51,7 @@ export default class Main extends React.Component {
             <div className="carousel-item" style={thirdImage}>
               <div className="carousel-caption d-none d-md-block">
                 <h3>Fourth Slide</h3>
-                <p>This is a description for the third slide.</p>
+                <p>This is a description for the fourth slide.</p>
               </div>
             </div>
           </div>
@@ -62,13 +67,42 @@ export default class Main extends React.Component {
       </header>
 
       {/* <!-- Page Content --> */}
-      <section className="py-5">
+      {/* <section className="py-5">
         <div className="container">
           <h1><b><i>RIBBLE VALLEY Tyre &amp; Auto Services</i></b></h1>
           <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the
             <code>half-slider.css</code>file.</p>
         </div>
+      </section> */}
+<br />
+{/* <!-- Features Section --> */}
+<section>
+  <div className="container">
+      <div className="row">
+      <div className="col-lg-6">
+        <h2>Modern Business Features</h2>
+        <p>The Modern Business template by Start Bootstrap includes:</p>
+        <ul>
+          <li>
+            <strong>Bootstrap v4</strong>
+          </li>
+          <li>jQuery</li>
+          <li>Font Awesome</li>
+          <li>Working contact form with validation</li>
+          <li>Unstyled page elements for easy customization</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+      </div>
+      <div className="col-lg-6">
+        <img className="img-fluid rounded" src="http://placehold.it/700x450" alt="" />
+      </div>
+      </div>
+{/* <!-- /.row --> */}
+    </div>
       </section>
+      <hr />
+      <br />
+      <br />
     </div>
     );
   }
