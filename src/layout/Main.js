@@ -51,50 +51,19 @@ export default class Main extends React.Component {
 
 <br />
 {/* <!-- Features Section --> */}
-<section>
 
-  <div className="card-deck">
-  <div className="card">
-      <img className="card-img-top" src="http://placehold.it/500x325" alt="Card image cap" />
-  <div className="card-body">
-    <h4 className="card-title">Card title</h4>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-<div className="card">
-  <img className="card-img-top" src="http://placehold.it/500x325" alt="Card image cap" />
-  <div className="card-body">
-    <h4 className="card-title">Card title</h4>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-<div className="card">
-  <img className="card-img-top" src="http://placehold.it/500x325" alt="Card image cap" />
-  <div className="card-body">
-    <h4 className="card-title">Card title</h4>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-</div>
-
-</section>
 <hr />
 <section>
   <div className="container">
       <div className="row">
       <div className="col-lg-6">
-        <h2>Modern Business Features</h2>
-        <p>The Modern Business template by Start Bootstrap includes:</p>
+        <h2><i>Ribble Valley</i> Tyre &amp; Auto Services Ltd</h2>
+        <address>Kestor Lane, Longridge, Lancashire. PR3 3AD</address>
         <ul>
-          <li>
-            <strong>Bootstrap v4</strong>
-          </li>
-          <li>jQuery</li>
-          <li>Font Awesome</li>
-          <li>Working contact form with validation</li>
+          <li>Car</li>
+          <li>Commercial</li>
+          <li>Agricultural</li>
+          <li>Fleet</li>
           <li>Unstyled page elements for easy customization</li>
         </ul>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
@@ -109,6 +78,36 @@ export default class Main extends React.Component {
       <hr />
       <br />
       <br />
+      <section>
+
+        <div className="card-deck">
+        <div className="card text-center">
+            <img className="card-img-top" src="http://placehold.it/500x325" alt="Card image cap" />
+        <div className="card-body">
+          <h4 className="card-title">MOT</h4>
+          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" className="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div className="card text-center">
+        <img className="card-img-top" src="http://placehold.it/500x325" alt="Card image cap" />
+        <div className="card-body">
+          <h4 className="card-title">Tyres</h4>
+          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" className="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      <div className="card text-center">
+        <img className="card-img-top" src="http://placehold.it/500x325" alt="Card image cap" />
+        <div className="card-body">
+          <h4 className="card-title">Servicing</h4>
+          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" className="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+      </div>
+
+      </section>
     </div>
     );
   }
