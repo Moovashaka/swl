@@ -57,19 +57,18 @@ export default class Main extends React.Component {
   <div className="container">
       <div className="row">
       <div className="col-lg-6">
-        <h2><i>Ribble Valley</i> Tyre &amp; Auto Services Ltd</h2>
-        <address>Kestor Lane, Longridge, Lancashire. PR3 3AD</address>
+        <h2><i>RIBBLE VALLEY</i> Tyre &amp; Auto Services Ltd</h2>
+        <address>Kestor Lane, Longridge, Preston, Lancashire. PR3 3AD</address>
         <ul>
           <li>Car</li>
           <li>Commercial</li>
           <li>Agricultural</li>
           <li>Fleet</li>
-          <li>Unstyled page elements for easy customization</li>
-        </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+      </ul>
+        <p>Trusted by small & medium sized firms and large networks alike, to deliver a quality, affordable & reliable service. Private car owner or vehicle fleet manager, Ribble Valley Tyre &amp; Auto Services are proud to offer an outstanding service to all our customers. </p>
       </div>
       <div className="col-lg-6">
-        <img className="img-fluid rounded" src="http://placehold.it/700x450" alt="" />
+        <img className="img-fluid rounded" src="img/rvteamphoto.png" alt="" />
       </div>
       </div>
 {/* <!-- /.row --> */}
@@ -82,15 +81,17 @@ export default class Main extends React.Component {
 
         <div className="card-deck">
         <div className="card text-center">
-            <img className="card-img-top" src="http://placehold.it/500x325" alt="Card image cap" />
+            <img className="card-img-top" src="img/motbay.png" alt="Card image cap" />
         <div className="card-body">
-          <h4 className="card-title">MOT</h4>
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h4 className="card-title">MOT Testing</h4>
+          <p className="card-text"><li>Class IV (Passenger cars up to 8 seats)</li>
+          <li>Class VII Pre-checks & MOT's arranged</li>
+        </p>
           <a href="#" className="btn btn-primary">Go somewhere</a>
         </div>
       </div>
       <div className="card text-center">
-        <img className="card-img-top" src="http://placehold.it/500x325" alt="Card image cap" />
+        <img className="card-img-top" src="img/tyresrack.png" alt="Card image cap" />
         <div className="card-body">
           <h4 className="card-title">Tyres</h4>
           <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -98,7 +99,7 @@ export default class Main extends React.Component {
         </div>
       </div>
       <div className="card text-center">
-        <img className="card-img-top" src="http://placehold.it/500x325" alt="Card image cap" />
+        <img className="card-img-top" src="img/servicing2.png" alt="Card image cap" />
         <div className="card-body">
           <h4 className="card-title">Servicing</h4>
           <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
