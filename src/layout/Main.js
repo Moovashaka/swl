@@ -1,16 +1,13 @@
 import React from 'react';
 
 const firstImage ={
-  backgroundImage: "url('img/rvtalogo2.png')"
+  backgroundImage: "url('img/rvtalogo5.png')"
 };
 const secondImage ={
-  backgroundImage: "url('img/rvtaTyres.png')"
+  backgroundImage: "url('img/rvtalogo4.png')"
 };
 const thirdImage ={
-  backgroundImage: "url('img/rvtaBays.png')"
-};
-const fourthImage ={
-  backgroundImage: "url('img/lamboMot.png')"
+  backgroundImage: "url('img/rvtalogo6.png')"
 };
 
 export default class Main extends React.Component {
@@ -26,15 +23,13 @@ export default class Main extends React.Component {
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
           </ol>
           <div className="carousel-inner" role="listbox">
-            {/* <!-- Slide One - Set the background image for this slide in the line below --> */}
+          {/* <!-- Slide One - Set the background image for this slide in the line below --> */}
             <div className="carousel-item active" style={firstImage}>
             </div>
             {/* <!-- Slide Two - Set the background image for this slide in the line below --> */}
             <div className="carousel-item" style={secondImage}>
             </div>
             {/* <!-- Slide Three - Set the background image for this slide in the line below --> */}
-            <div className="carousel-item" style={thirdImage}>
-            </div>
             <div className="carousel-item" style={thirdImage}>
             </div>
           </div>
@@ -107,9 +102,10 @@ export default class Main extends React.Component {
         </div>
       </div>
       </div>
-
-      </section>
-    </div>
+      <br />
+      <br />
+  </section>
+</div>
     );
   }
 }
