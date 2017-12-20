@@ -4,6 +4,7 @@ import Main from './layout/Main';
 import Comments from './layout/Comments';
 import ContactForm from './layout/ContactForm';
 import Footer from './layout/Footer';
+import Contact from './layout/Contact';
 
 
 class App extends Component {

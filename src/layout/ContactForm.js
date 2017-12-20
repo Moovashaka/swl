@@ -91,69 +91,99 @@ export default class ContactForm extends React.Component {
       }
     }
 
-
-
   render() {
+    const mapStyles = {
+    width: "100%",
+    height: "auto",
+    frameborder: "0",
+    style: "border:0",
+    allowfullscreen: "allowfullscreen",
+  };
+
 
     return (
-      <div className="text-center">
+
+  <section id="contact">
+
+  <div className="container">
+    <div className="card card-body bg-light">
+      <h3>Contact Us</h3>
+  </div>
+  <br />
+<div className="row">
+  <div className="col-md-7">
+    <img src="https://maps.googleapis.com/maps/api/staticmap?center=stonebridge+mill+kestor+lane+longridge+lancashire&zoom=18&scale=1&size=600x300&maptype=roadmap&key=AIzaSyDP0xB9uhXm7e-L0rasGS3hLGCnRzDnYAk&format=png&visual_refresh=true" style={mapStyles} />
+  </div>
+      <div className="col-md-5">
         <form name="contactForm" onSubmit={ this.handleSubmit } netlify>
-          <div>
+          <div className="form-group">
             <input type="hidden" name="form-name" value="contactForm" />
-            <label>Name:  </label>
             <input
               value={this.state.inputName}
+              className="form-control"
               name="inputName"
               type="text"
               onChange={this.handleChange}
+              placeholder="Name"
               required />
           </div>
           <br />
           <span>{this.state.inputNameError}</span>
           <br />
-          <div>
-            <label> email:</label>
+          <div className="form-group">
             <input
               value={this.state.inputEmail}
+              className="form-control"
               name="inputEmail" type="text"
               onChange={this.handleChange}
+              placeholder="Email"
               required />
             <br />
           </div>
           <span>{this.state.inputEmailError}</span>
           <br />
-          <div>
-            <label> Company:</label>
+          <div className="form-group">
             <input
               value={this.state.inputCompany}
+              className="form-control"
+              type="tel"
               name="inputCompany" type="text"
               onChange={this.handleChange}
+              placeholder="Phone"
                />
             <br />
           </div>
-          <div>
+          <div className="form-group">
             <label>
-              <i>Talk to me about:</i>
+              <i>I'd like to enquire about:</i>
               <br />
-              <br />
-            </label>
+              </label>
           </div>
-          <select value={this.state.select} name="select" className="text-center" onChange={this.handleChange}>
+        <div className="form-group">
+          <select className="form-control" value={this.state.select} name="select" className="text-center" onChange={this.handleChange}>
             <option value="other">Something else</option>
-            <option value='Brochure'>A brochure site</option>
-            <option value="e-commerce">An e-commerce site</option>
-            <option value="content managed">Content-Managed site (like Wordpress)</option>
-            <option value="modifying">Modifying an existing App/Site</option>
-            <option value="custom">Custom React Components</option>
-            <option value="traffic">Traffic generation</option>
+            <option value='tyres'>Tyres</option>
+            <option value="mot">MOT</option>
+            <option value="servicing">Servicing</option>
+            <option value="brakes">Brakes</option>
+            <option value="exhaust">Exhaust</option>
           </select>
+        </div>
           <br />
           <br />
-          <label> Message: </label>
-          <textarea type="text" value={this.state.message} name="message" onChange={this.handleChange} maxLength="200"></textarea>
+          <div className="form-group">
+          <textarea
+            type="text" value={this.state.message}
+            className="form-control"
+            name="message"
+            onChange={this.handleChange}
+            maxLength="200"
+            placeholder="Message">
+            </textarea>
+        </div>
           <br />
           <br />
-        <button id="submit" type="submit" name="dataSubmit" disabled={this.state.lockSubmit}>Submit</button>
+        <button className="text-center" id="submit" type="submit" name="dataSubmit" disabled={this.state.lockSubmit}>Submit</button>
         <br />
         <br />
         <span>{this.state.formSent}</span>
@@ -161,6 +191,10 @@ export default class ContactForm extends React.Component {
         <br />
         </form>
       </div>
+    </div>
+  </div>
+    </section>
+
     );
   }
 }
