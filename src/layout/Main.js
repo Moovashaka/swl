@@ -20,11 +20,11 @@ export default class Main extends React.Component {
             <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+
           </ol>
           <div className="carousel-inner" role="listbox">
           {/* <!-- Slide One - Set the background image for this slide in the line below --> */}
-            <div className="carousel-item active" style={firstImage}>
+            <div className="carousel-item active " style={firstImage}>
             </div>
             {/* <!-- Slide Two - Set the background image for this slide in the line below --> */}
             <div className="carousel-item" style={secondImage}>
@@ -47,7 +47,6 @@ export default class Main extends React.Component {
 <br />
 {/* <!-- Features Section --> */}
 
-<hr />
 <section>
   <div className="container">
       <div className="row">
@@ -69,8 +68,6 @@ export default class Main extends React.Component {
 {/* <!-- /.row --> */}
     </div>
       </section>
-      <hr />
-      <br />
       <br />
       <section>
 

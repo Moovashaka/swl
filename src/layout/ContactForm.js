@@ -111,8 +111,18 @@ export default class ContactForm extends React.Component {
   </div>
   <br />
 <div className="row">
-  <div className="col-md-7">
+  <div className="col-sm-7">
     <img src="https://maps.googleapis.com/maps/api/staticmap?center=stonebridge+mill+kestor+lane+longridge+lancashire&zoom=18&scale=1&size=600x300&maptype=roadmap&key=AIzaSyDP0xB9uhXm7e-L0rasGS3hLGCnRzDnYAk&format=png&visual_refresh=true" style={mapStyles} />
+<br />
+<br />
+  <div className="card-block">
+  <address className="card-text">
+    <h3><i>RIBBLE VALLEY</i> Tyre &amp; Auto Services Limited</h3>
+    Stonebridge Mill, Kestor Lane, Longridge, Preston, Lancashire. PR3 3AD
+    <br />
+    <br />
+    <h3>T: 01772 784000 F: 01772 784008</h3></address>
+  </div>
   </div>
       <div className="col-md-5">
         <form name="contactForm" onSubmit={ this.handleSubmit } netlify>
