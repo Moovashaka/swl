@@ -1,0 +1,5 @@
+/*!
+ * Start Bootstrap - Half Slider (https://startbootstrap.com/template-overviews/half-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-half-slider/blob/master/LICENSE)
+ */.carousel-item{height:80vh;min-height:300px;background:no-repeat center center scroll;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}html{height:100%}body,p,nav{font-family:"Cuprum","Barlow Condensed",Arial,sans-serif;font-size:18px}h1,h2,h3,h4,h5,h6{font-family:"Cuprum","Barlow Condensed",Arial,sans-serif;font-weight:700}header{padding:50px 0 0 0}@media(max-width:599px){.carousel-item{height:15vh}}@media(min-width:600px){.carousel-item{height:45vh}}@media(min-width:900px){.carousel-item{height:60vh}}@media(min-width:1200px){.carousel-item{height:75vh}}

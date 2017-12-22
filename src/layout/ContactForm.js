@@ -117,6 +117,8 @@ export default class ContactForm extends React.Component {
 <br />
   <div className="card-block">
   <address className="card-text">
+    <br />
+    <br />
     <h3><i>RIBBLE VALLEY</i> Tyre &amp; Auto Services Limited</h3>
     Stonebridge Mill, Kestor Lane, Longridge, Preston, Lancashire. PR3 3AD
     <br />
