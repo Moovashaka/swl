@@ -14,7 +14,7 @@ export default class Main extends React.Component {
   render () {
     return (
       <div>
-      <header>
+      <header id="home">
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
           <ol className="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
@@ -47,19 +47,23 @@ export default class Main extends React.Component {
 <br />
 {/* <!-- Features Section --> */}
 
-<section>
+<section id="about">
   <div className="container">
       <div className="row">
       <div className="col-lg-6">
         <h2><i>RIBBLE VALLEY</i> Tyre &amp; Auto Services Ltd</h2>
-        <address>Kestor Lane, Longridge, Preston, Lancashire. PR3 3AD</address>
+        <address>Kestor Lane, Longridge, Preston, Lancashire. PR3 3AD <br />
+          <b>T: 01772 784000 F: 01772 784008 </b>
+        </address>
         <ul>
           <li>Car</li>
           <li>Commercial</li>
           <li>Agricultural</li>
           <li>Fleet</li>
       </ul>
-        <p>Trusted by small & medium sized firms and large networks alike, to deliver a quality, affordable & reliable service. Private car owner or vehicle fleet manager, Ribble Valley Tyre &amp; Auto Services are proud to offer an outstanding service to all our customers. </p>
+        <p>Trusted by small & medium sized firms and large businesses alike, to deliver a quality, affordable & reliable service. Private car owner or vehicle fleet manager, Ribble Valley Tyre &amp;
+          Auto Services are proud to offer an outstanding service to all our customers. Our facilities offer ample parking in the event that your
+        car, van repair cannot be completed while you wait.</p>
       </div>
       <div className="col-lg-6">
         <img className="img-fluid rounded" src="img/rvteamphoto.png" alt="" />
@@ -69,31 +73,49 @@ export default class Main extends React.Component {
     </div>
       </section>
       <br />
-      <section>
+      <section id="services">
 
         <div className="card-deck">
-        <div className="card text-center">
+        <div className="card">
             <img className="card-img-top" src="img/motbay.png" alt="Card image cap" />
         <div className="card-body">
           <h4 className="card-title">MOT Testing</h4>
           <p className="card-text"><li>Class IV (Passenger cars up to 8 seats)</li>
           <li>Class VII Pre-checks & MOT's arranged</li>
           <li>MOT re-tests</li>
+          <br />
+          Call us to arrange your vehicle's MOT test. We have a waiting room should you wish to stay with your vehicle or leave it with us and collect later in the day.,
         </p>
       </div>
       </div>
-      <div className="card text-center">
+      <div className="card">
         <img className="card-img-top" src="img/tyresrack.png" alt="Card image cap" />
         <div className="card-body">
           <h4 className="card-title">Tyres</h4>
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+          <p className="card-text">
+            <li>All makes &amp; models supplied and fitted</li>
+            <li>Commercial &amp; Agricultural Tyres</li>
+            <li>Puncture repairs &amp; Tyre checks</li>
+            <li>Wheel Alignment, Tracking &amp; Balancing</li>
+            <li>Authorised Key Dealer for Toyo Tyres</li>
+            <li>Member of the Independent Tyre Distributors Network</li>
+            <br />
+            We have a huge stock of tyres and can supply, fit &amp; balance your favorite brand or advise on something to suit your budget. </p>
       </div>
       </div>
-      <div className="card text-center">
+      <div className="card">
         <img className="card-img-top" src="img/servicing2.png" alt="Card image cap" />
         <div className="card-body">
           <h4 className="card-title">Servicing</h4>
-          <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p className="card-text">
+            <li>All makes &amp; models serviced and repaired. </li>
+            <li>Prestige vehicle servicing.</li>
+            <li>Fleet & Commercial servicing &amp; repairs</li>
+            <br />
+            Since 2002 EU legislation (called Block Exemption) has freed up the car servicing market, giving you the choice of where you have your car serviced (providing manufacturer standards are met).
+
+So come and have your vehicle serviced by the motoring professionals at Ribble Valley Tyre &amp; Auto Services, we take pride in doing the job properly</p>
       </div>
       </div>
       </div>

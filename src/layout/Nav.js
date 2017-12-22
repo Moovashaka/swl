@@ -18,16 +18,16 @@ export default class Nav extends React.Component {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">About</a>
+          <a className="nav-link" href="#about">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Services</a>
+          <a className="nav-link" href="#services">Services</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Feedback</a>
+          <a className="nav-link" href="#comments">Feedback</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Contact</a>
+          <a className="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
