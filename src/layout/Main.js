@@ -102,6 +102,7 @@ export default class Main extends React.Component {
             <li>Member of the Independent Tyre Distributors Network</li>
             <br />
             We have a huge stock of tyres and can supply, fit &amp; balance your favorite brand or advise on something to suit your budget. </p>
+            <p>Why not visit our sister site <a href="http://www.longridgetyres.co.uk">Longridge Tyres</a> for more information. </p>
       </div>
       </div>
       <div className="card">
