@@ -102,7 +102,9 @@ export default class Main extends React.Component {
             <li>Member of the Independent Tyre Distributors Network</li>
             <br />
             We have a huge stock of tyres and can supply, fit &amp; balance your favorite brand or advise on something to suit your budget. </p>
-            <p>Why not visit our sister site <a href="http://www.longridgetyres.co.uk">Longridge Tyres</a> for more information. </p>
+            <p>Why not visit our sister site for more information. </p>
+            <br />
+            <a href="http://www.longridgetyres.co.uk" class="btn btn-primary">Longridge Tyres</a>
       </div>
       </div>
       <div className="card">
@@ -115,7 +117,8 @@ export default class Main extends React.Component {
             <li>Fleet & Commercial servicing &amp; repairs</li>
             <br />
             Since 2002 EU legislation (called Block Exemption) has freed up the car servicing market, giving you the choice of where you have your car serviced (providing manufacturer standards are met).
-
+<br />
+<br />
 So come and have your vehicle serviced by the motoring professionals at Ribble Valley Tyre &amp; Auto Services, we take pride in doing the job properly</p>
       </div>
       </div>
