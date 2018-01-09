@@ -84,8 +84,13 @@ export default class Main extends React.Component {
           <li>Class VII Pre-checks & MOT's arranged</li>
           <li>MOT re-tests</li>
           <br />
-          Call us to arrange your vehicle's MOT test. We have a waiting room should you wish to stay with your vehicle or leave it with us and collect later in the day.,
+          During your car's MOT test, important parts on your vehicle will be checked to make sure they meet the legal standards.
+          <br />
+          <br />
+          Call us to arrange your vehicle's MOT test. We have a waiting room should you wish to stay with your vehicle or leave it with us and collect later in the day.
         </p>
+        <br />
+        <a href="#contact" class="btn btn-primary">Book Now</a>
       </div>
       </div>
       <div className="card">
@@ -102,9 +107,9 @@ export default class Main extends React.Component {
             <li>Member of the Independent Tyre Distributors Network</li>
             <br />
             We have a huge stock of tyres and can supply, fit &amp; balance your favorite brand or advise on something to suit your budget. </p>
-            <p>Why not visit our sister site for more information. </p>
+            <p>Why not visit our sister site <a href="http://www.longridgetyres.co.uk" target="_blank" rel="noopener noreferrer">Longridge Tyres</a> for more information. </p>
             <br />
-            <a href="http://www.longridgetyres.co.uk" class="btn btn-primary">Longridge Tyres</a>
+            <a href="http://www.longridgetyres.co.uk" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Longridge Tyres</a>
       </div>
       </div>
       <div className="card">
@@ -119,7 +124,10 @@ export default class Main extends React.Component {
             Since 2002 EU legislation (called Block Exemption) has freed up the car servicing market, giving you the choice of where you have your car serviced (providing manufacturer standards are met).
 <br />
 <br />
-So come and have your vehicle serviced by the motoring professionals at Ribble Valley Tyre &amp; Auto Services, we take pride in doing the job properly</p>
+Have your vehicle serviced by the motoring professionals at Ribble Valley Tyre &amp; Auto Services, we take pride in doing the job properly</p>
+<br />
+
+<a href="#contact" class="btn btn-primary">Book Now</a>
       </div>
       </div>
       </div>
