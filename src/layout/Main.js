@@ -1,13 +1,13 @@
 import React from 'react';
 
 const firstImage ={
-  backgroundImage: "url('img/rvtalogo11.jpeg')"
+  backgroundImage: "url('img/rvtalogo11.jpg')"
 };
 const secondImage ={
-  backgroundImage: "url('img/rvtalogo41.jpeg')"
+  backgroundImage: "url('img/rvtalogo41.jpg')"
 };
 const thirdImage ={
-  backgroundImage: "url('img/rvtalogo61.jpeg')"
+  backgroundImage: "url('img/rvtalogo61.jpg')"
 };
 
 export default class Main extends React.Component {
