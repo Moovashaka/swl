@@ -1,12 +1,12 @@
 {
   "name": "rvta",
   "version": "0.1.0",
-  "private": true,
+  "private": ,
   "dependencies": {
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
     "react-scripts": "1.0.17",
-    "homepage": "http://www.ribblevalleytyreandautoservices.co.uk/build/index.html"
+    "homepage": "./build/index.html"
   },
   "scripts": {
     "start": "react-scripts start",
