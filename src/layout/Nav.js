@@ -13,7 +13,7 @@ export default class Nav extends React.Component {
     <div className="collapse navbar-collapse" id="navbarResponsive">
       <ul className="navbar-nav ml-auto">
         <li className="nav-item active">
-          <a className="nav-link page-scroll" href="#">Home
+          <a className="nav-link page-scroll" href="#home">Home
             <span className="sr-only">(current)</span>
           </a>
         </li>
