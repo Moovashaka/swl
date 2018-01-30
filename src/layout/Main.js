@@ -90,7 +90,7 @@ export default class Main extends React.Component {
           Call us to arrange your vehicle's MOT test. We have a waiting room should you wish to stay with your vehicle or leave it with us and collect later in the day.
         </p>
         <br />
-        <a href="#contact" class="btn btn-primary">Book Now</a>
+        <a href="#contact" className="btn btn-primary">Book Now</a>
       </div>
       </div>
       <div className="card">
@@ -109,7 +109,7 @@ export default class Main extends React.Component {
             We have a huge stock of tyres and can supply, fit &amp; balance your favorite brand or advise on something to suit your budget. </p>
             <p>Why not visit our sister site <a href="http://www.longridgetyres.co.uk" target="_blank" rel="noopener noreferrer">Longridge Tyres</a> for more information. </p>
             <br />
-            <a href="http://www.longridgetyres.co.uk" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Longridge Tyres</a>
+            <a href="http://www.longridgetyres.co.uk" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Longridge Tyres</a>
       </div>
       </div>
       <div className="card">
@@ -127,7 +127,7 @@ export default class Main extends React.Component {
 Have your vehicle serviced by the motoring professionals at Ribble Valley Tyre &amp; Auto Services, we take pride in doing the job properly</p>
 <br />
 
-<a href="#contact" class="btn btn-primary">Book Now</a>
+<a href="#contact" className="btn btn-primary">Book Now</a>
       </div>
       </div>
       </div>

@@ -10,7 +10,7 @@ export default class ContactForm extends React.Component {
       inputNameError: '',
       inputEmail: '',
       inputEmailError: '',
-      inputCompany: '',
+      inputPhone: '',
       select: 'other',
       message: '',
       formSent: '',
@@ -72,7 +72,7 @@ export default class ContactForm extends React.Component {
           inputNameError: '',
           inputEmail: '',
           inputEmailError: '',
-          inputCompany: '',
+          inputPhone: '',
           select: '',
           message: ''
 
@@ -82,12 +82,12 @@ export default class ContactForm extends React.Component {
         inputNameError: '',
         inputEmail: '',
         inputEmailError: '',
-        inputCompany: '',
+        inputPhone: '',
         select: '',
         message: ''
 
         });
-       const clearMessageTimer = setTimeout(() => { this.setState({ formSent: '' })}, 5000);
+       const clearMessageTimer = setTimeout(() => { this.setState({ formSent: '' })}, 10000);
       }
     }
 
@@ -156,13 +156,13 @@ export default class ContactForm extends React.Component {
           <br />
           <div className="form-group">
             <input
-              value={this.state.inputCompany}
+              value={this.state.inputPhone}
               className="form-control"
               type="tel"
-              name="inputCompany" type="text"
+              name="inputPhone" type="tel"
               onChange={this.handleChange}
               placeholder="Phone"
-               />
+              required />
             <br />
           </div>
           <div className="form-group">
