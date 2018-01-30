@@ -90,7 +90,7 @@ export default class Main extends React.Component {
           Call us to arrange your vehicle's MOT test. We have a waiting room should you wish to stay with your vehicle or leave it with us and collect later in the day.
         </p>
         <br />
-        <a href="contact" className="btn btn-primary">Book Now</a>
+        <a href="#contact" className="btn btn-primary page-scroll">Book Now</a>
       </div>
       </div>
       <div className="card">
@@ -127,7 +127,7 @@ export default class Main extends React.Component {
 Have your vehicle serviced by the motoring professionals at Ribble Valley Tyre &amp; Auto Services, we take pride in doing the job properly</p>
 <br />
 
-<a href="contact" className="btn btn-primary">Book Now</a>
+<a href="#contact" className="btn btn-primary page-scroll">Book Now</a>
       </div>
       </div>
       </div>
