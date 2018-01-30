@@ -104,14 +104,14 @@ export default class ContactForm extends React.Component {
     return (
 
   <section id="contact">
-
   <div className="container">
     <div className="card card-body bg-light">
       <h3>Contact Us</h3>
   </div>
   <br />
-<div className="row">
+  <div className="row">
   <div className="col-sm-7">
+    <div className="map-address">
     <img src="https://maps.googleapis.com/maps/api/staticmap?center=stonebridge+mill+kestor+lane+longridge+lancashire&zoom=18&scale=1&size=600x300&maptype=roadmap&key=AIzaSyDP0xB9uhXm7e-L0rasGS3hLGCnRzDnYAk&format=png&visual_refresh=true" style={mapStyles} />
 <br />
 <br />
@@ -126,6 +126,7 @@ export default class ContactForm extends React.Component {
     <h3>T: 01772 784000 F: 01772 784008</h3></address>
   </div>
   </div>
+</div>
       <div className="col-md-5">
         <form name="contactForm" onSubmit={ this.handleSubmit } netlify>
           <div className="form-group">
