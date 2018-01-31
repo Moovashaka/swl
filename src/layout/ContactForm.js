@@ -60,6 +60,7 @@ export default class ContactForm extends React.Component {
         }
         fetch("/", {
           method: "POST",
+          action: "client_mailer.php",
           headers: {"content-type": "application/x-www-form-urlencoded" },
           body: encode({ "form-name": "contactForm", ...this.state })
         })
