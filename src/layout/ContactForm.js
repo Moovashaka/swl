@@ -58,9 +58,8 @@ export default class ContactForm extends React.Component {
           .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
           .join("&");
         }
-        fetch("/", {
+        fetch("client_mailer.php", {
           method: "POST",
-          action: "client_mailer.php",
           headers: {"content-type": "application/x-www-form-urlencoded" },
           body: encode({ "form-name": "contactForm", ...this.state })
         })
@@ -129,7 +128,7 @@ export default class ContactForm extends React.Component {
   </div>
 </div>
       <div className="col-md-5">
-        <form name="contactForm" onSubmit={ this.handleSubmit } netlify>
+        <form name="contactForm" onSubmit={ this.handleSubmit }>
           <div className="form-group">
             <input type="hidden" name="form-name" value="contactForm" />
             <input

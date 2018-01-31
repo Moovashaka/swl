@@ -2,14 +2,14 @@
 
 
     // Gather the posted form variables into local PHP variables
-    $senderName = $_POST["inputName"];
-    $senderEmail = $_POST["inputEmail"];
-    $senderTelno = $_POST["inputPhone"];
-    $senderCheckbox = $_POST["select"];
-    $senderMessage = $_POST["message"];
+    $senderName = $_REQUEST["inputName"];
+    $senderEmail = $_REQUEST["inputEmail"];
+    $senderTelno = $_REQUEST["inputPhone"];
+    $senderCheckbox = $_REQUEST["select"];
+    $senderMessage = $_REQUEST["message"];
 
     // Make sure certain vars are present or else we do not send email yet
-    if (!isset($_POST["inputEmail"])) {
+    if (!isset($_REQUEST["email"])) {
     header ( "Location: index.html" );
     }
     elseif (empty($senderName) || empty($senderEmail)) {
@@ -32,9 +32,11 @@
         $subject = "You have a message from your website";
         // Begin Email Message Body
         $message = "
-        $senderTelno\r\n
-        $senderMessage\r\n
-        $senderCheckbox\r\n
+        $senderName
+        $senderEmail
+        $senderTelno
+        $senderMessage
+        $senderCheckbox
         ";
         // Set headers configurations
         $headers  = "MIME-Version: 1.0" . "\r\n";
@@ -44,7 +46,7 @@
         $headers  = "Message: $senderMessage\r\n";
 // Mail it now using PHP's mail function
         ini_set("sendmail_from", $email_from);
-	mail($email_to, $subject, $message, $headers,"-f". $email_from);
+	mail ($email_to, $subject, $message, $headers,"-f". $email_from);
 
     } // close the else condition
 ?>
