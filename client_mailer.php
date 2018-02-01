@@ -32,9 +32,11 @@
         $subject = "You have a message from your website";
         // Begin Email Message Body
         $message = "
-        $senderTelno\r\n
-        $senderMessage\r\n
-        $senderCheckbox\r\n
+        Name: $senderName\r\n
+        Phone: $senderTelno\r\n
+        Email: $senderEmail\r\n
+        I'd like to enquire about: $senderCheckbox\r\n
+        Message: $senderMessage\r\n
         ";
         // Set headers configurations
         $headers  = "MIME-Version: 1.0" . "\r\n";
