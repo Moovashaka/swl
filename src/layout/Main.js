@@ -53,7 +53,7 @@ export default class Main extends React.Component {
       <div className="col-lg-6">
         <h2><i>RIBBLE VALLEY</i> Tyre &amp; Auto Services Ltd</h2>
         <address>Kestor Lane, Longridge, Preston, Lancashire. PR3 3AD <br />
-          <b>T: 01772 784000 F: 01772 784008 </b>
+          <b><a href="tel:+44-1772-784000">T: 01772 784000 </a> F: 01772 784008 </b>
         </address>
         <ul>
           <li>Car</li>
@@ -66,7 +66,7 @@ export default class Main extends React.Component {
         car, van repair cannot be completed while you wait.</p>
       </div>
       <div className="col-lg-6">
-        <img className="img-fluid rounded" src="img/rvteamphoto.png" alt="" />
+        <img className="img-fluid rounded" src="img/rvteamphoto.png" alt="car tyres, servicing, exhausts, preston" />
       </div>
       </div>
 {/* <!-- /.row --> */}
@@ -77,14 +77,15 @@ export default class Main extends React.Component {
 
         <div className="card-deck">
         <div className="card">
-            <img className="card-img-top" src="img/motbay.png" alt="Card image cap" />
+            <img className="card-img-top" src="img/motbay.png" alt="MOT, steering, suspension, car servicing, longridge preston" />
         <div className="card-body">
           <h4 className="card-title">MOT Testing</h4>
           <p className="card-text"><li>Class IV (Passenger cars up to 8 seats)</li>
           <li>Class VII Pre-checks & MOT's arranged</li>
           <li>MOT re-tests</li>
           <br />
-          During your car's MOT test, important parts on your vehicle will be checked to make sure they meet the legal standards.
+          During your car's MOT test, important parts and systems on your vehicle will be checked to make sure they meet the legal standards. Such as
+          Brakes, Steering, Tyres, Suspension Components, Exhaust Emissions &amp; Vehicle Safety Systems.
           <br />
           <br />
           Call us to arrange your vehicle's MOT test. We have a waiting room should you wish to stay with your vehicle or leave it with us and collect later in the day.
@@ -94,7 +95,7 @@ export default class Main extends React.Component {
       </div>
       </div>
       <div className="card">
-        <img className="card-img-top" src="img/tyresrack.png" alt="Card image cap" />
+        <img className="card-img-top" src="img/tyresrack1.png" alt="tyres, brakes, servicing longridge preston" />
         <div className="card-body">
           <h4 className="card-title">Tyres</h4>
 
@@ -113,7 +114,7 @@ export default class Main extends React.Component {
       </div>
       </div>
       <div className="card">
-        <img className="card-img-top" src="img/servicing2.png" alt="Card image cap" />
+        <img className="card-img-top" src="img/servicebay.png" alt="car and van servicing preston" />
         <div className="card-body">
           <h4 className="card-title">Servicing</h4>
           <p className="card-text">

@@ -123,7 +123,8 @@ export default class ContactForm extends React.Component {
     Stonebridge Mill, Kestor Lane, Longridge, Preston, Lancashire. PR3 3AD
     <br />
     <br />
-    <h3>T: 01772 784000 F: 01772 784008</h3></address>
+    <h3><a href="tel:+44-1772-784000">T: 01772 784000</a> F: 01772 784008</h3>
+  </address>
   </div>
   </div>
 </div>
