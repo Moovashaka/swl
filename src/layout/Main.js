@@ -84,11 +84,11 @@ export default class Main extends React.Component {
           <li>Class VII Pre-checks & MOT's arranged</li>
           <li>MOT re-tests</li>
           <br />
-          During your car's MOT test, important parts and systems on your vehicle will be checked to make sure they meet the legal standards. Such as
+          Your car's MOT test is about checking important parts and systems to ensure they meet the legal standards. Such as
           Brakes, Steering, Tyres, Suspension Components, Exhaust Emissions &amp; Vehicle Safety Systems.
           <br />
           <br />
-          Call us to arrange your vehicle's MOT test. We have a waiting room should you wish to stay with your vehicle or leave it with us and collect later in the day.
+          Take advantage of our waiting room or leave your vehicle with us and collect later in the day.
         </p>
         <br />
         <a href="#contact" className="btn btn-primary page-scroll">Book Now</a>
