@@ -121,6 +121,7 @@ export default class ContactForm extends React.Component {
     <br />
     <h3><i>RIBBLE VALLEY</i> Tyre &amp; Auto Services Limited</h3>
     Stonebridge Mill, Kestor Lane, Longridge, Preston, Lancashire. PR3 3AD
+    <a href="mailto:info@ribblevalleytyreandautoservices.co.uk"><p>info@ribblevalleytyreandautoservices.co.uk</p></a>
     <br />
     <br />
     <h3><a href="tel:+44-1772-784000">T: 01772 784000</a> F: 01772 784008</h3>
