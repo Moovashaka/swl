@@ -15,8 +15,8 @@ export default class Comments extends React.Component {
             	</div>
                 <div className="testimonial-desc">
                       <div className="testimonial-writer">
-                    	<div className="testimonial-writer-name">Carl Roberts</div>
-                    	<div className="testimonial-writer-designation">September 2017</div>
+                    	<div className="testimonial-writer-name"></div>
+                    	<div className="testimonial-writer-designation"></div>
                       </div>
                 </div>
             </div>
@@ -29,8 +29,8 @@ export default class Comments extends React.Component {
                 </div>
                 <div className="testimonial-desc">
                       <div className="testimonial-writer">
-                    	<div className="testimonial-writer-name">Mary Davies</div>
-                    	<div className="testimonial-writer-designation">August 2017</div>
+                    	<div className="testimonial-writer-name"></div>
+                    	<div className="testimonial-writer-designation"></div>
                     	</div>
                 </div>
             </div>
@@ -43,8 +43,8 @@ export default class Comments extends React.Component {
                 </div>
                 <div className="testimonial-desc">
                       <div className="testimonial-writer">
-                    	<div className="testimonial-writer-name">Peter Rogers</div>
-                    	<div className="testimonial-writer-designation">December 2016</div>
+                    	<div className="testimonial-writer-name"></div>
+                    	<div className="testimonial-writer-designation"></div>
                     	</div>
                 </div>
             </div>
@@ -57,8 +57,8 @@ export default class Comments extends React.Component {
                 </div>
                 <div className="testimonial-desc">
                     <div className="testimonial-writer">
-                    	<div className="testimonial-writer-name">Abbi Briggs</div>
-                    	<div className="testimonial-writer-designation">May 2017</div>
+                    	<div className="testimonial-writer-name"></div>
+                    	<div className="testimonial-writer-designation"></div>
                     	</div>
                 </div>
             </div>
@@ -67,12 +67,12 @@ export default class Comments extends React.Component {
     <div className="col-sm-6">
         <div id="tb-testimonial" className="testimonial testimonial-success">
             <div className="testimonial-section">
-                Excellent service. Fitter let me know when he would be there, good product,good price,good service. Very happy!
+                Excellent service. let me know when they would be there, high quality service. Very happy!
             </div>
             <div className="testimonial-desc">
                 <div className="testimonial-writer">
-                  <div className="testimonial-writer-name">Paul Joyce</div>
-                  <div className="testimonial-writer-designation">April 2016</div>
+                  <div className="testimonial-writer-name"></div>
+                  <div className="testimonial-writer-designation"></div>
                   </div>
             </div>
         </div>
@@ -85,8 +85,8 @@ export default class Comments extends React.Component {
         </div>
         <div className="testimonial-desc">
             <div className="testimonial-writer">
-              <div className="testimonial-writer-name">Josh Hughes</div>
-              <div className="testimonial-writer-designation">December 2016</div>
+              <div className="testimonial-writer-name"></div>
+              <div className="testimonial-writer-designation"></div>
               </div>
         </div>
     </div>

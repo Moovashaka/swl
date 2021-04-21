@@ -5,7 +5,7 @@ export default class Footer extends React.Component {
     return (
       <footer className="py-5 bg-dark">
         <div className="container">
-          <p className="m-0 text-center text-white">Copyright &copy; Ribble Valley Tyre &amp; Auto {(new Date().getFullYear())}</p>
+          <p className="m-0 text-center text-white">Copyright &copy; SWL Garden Structures {(new Date().getFullYear())}</p>
         </div>
         {/* <!-- /.container --> */}
       </footer>

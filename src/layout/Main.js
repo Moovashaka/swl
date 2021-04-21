@@ -1,13 +1,13 @@
 import React from 'react';
 
 const firstImage ={
-  backgroundImage: "url('img/rvtalogo11.jpg')"
+  backgroundImage: "url('img/swllogoblk.png')"
 };
 const secondImage ={
-  backgroundImage: "url('img/rvtalogo41.jpg')"
+  backgroundImage: "url('img/swllogoblk.png')"
 };
 const thirdImage ={
-  backgroundImage: "url('img/rvtalogo61.jpg')"
+  backgroundImage: "url('img/swllogo51.png')"
 };
 
 export default class Main extends React.Component {
@@ -51,19 +51,19 @@ export default class Main extends React.Component {
   <div className="container">
       <div className="row">
       <div className="col-lg-6">
-        <h2><i>RIBBLE VALLEY</i> Tyre &amp; Auto Services Ltd</h2>
-        <address>Kestor Lane, Longridge, Preston, Lancashire. PR3 3AD <br />
-          <b><a href="tel:+44-1772-784000">T: 01772 784000 </a> F: 01772 784008 </b>
+        <h2><i>SWL</i> Garden Structures</h2>
+        <address><br />
+          <b><a href="tel:+44-1777-700000">T: 01777 700000 </a></b>
         </address>
         <ul>
-          <li>Car</li>
+          <li>Garden</li>
           <li>Commercial</li>
-          <li>Agricultural</li>
-          <li>Fleet</li>
+          <li>Business</li>
+          <li>Home</li>
       </ul>
-        <p>Trusted by small & medium sized firms and large businesses alike, to deliver a quality, affordable & reliable service. Private car owner or vehicle fleet manager, Ribble Valley Tyre &amp;
-          Auto Services are proud to offer an outstanding service to all our customers. Our facilities offer ample parking in the event that your
-        car, van repair cannot be completed while you wait.</p>
+        <p>We deliver exceptional service, quality, affordable & individuality. Private &amp;
+          Services are proud to offer an outstanding service to all our customers. We can design &amp; build your ideal garden
+        structure, bespoke and individual.</p>
       </div>
       <div className="col-lg-6">
         <img className="img-fluid rounded" src="img/rvteamphoto.png" alt="car tyres, servicing, exhausts, preston" />
@@ -79,8 +79,8 @@ export default class Main extends React.Component {
         <div className="card">
             <img className="card-img-top" src="img/motbay.png" alt="MOT, steering, suspension, car servicing, longridge preston" />
         <div className="card-body">
-          <h4 className="card-title">MOT Testing</h4>
-          <p className="card-text"><li>Class IV (Passenger cars up to 8 seats)</li>
+          <h4 className="card-title">Pagoda</h4>
+          <p className="card-text"><li>Bespoke &amp; Individual</li>
           <li>Class VII Pre-checks & MOT's arranged</li>
           <li>MOT re-tests</li>
           <br />
@@ -97,7 +97,7 @@ export default class Main extends React.Component {
       <div className="card">
         <img className="card-img-top" src="img/tyresrack1.png" alt="tyres, brakes, servicing longridge preston" />
         <div className="card-body">
-          <h4 className="card-title">Tyres</h4>
+          <h4 className="card-title">Decking</h4>
 
           <p className="card-text">
             <li>All makes &amp; models supplied and fitted</li>
@@ -116,7 +116,7 @@ export default class Main extends React.Component {
       <div className="card">
         <img className="card-img-top" src="img/servicebay.png" alt="car and van servicing preston" />
         <div className="card-body">
-          <h4 className="card-title">Servicing</h4>
+          <h4 className="card-title">Outbuildings</h4>
           <p className="card-text">
             <li>All makes &amp; models serviced and repaired. </li>
             <li>Prestige vehicle servicing.</li>

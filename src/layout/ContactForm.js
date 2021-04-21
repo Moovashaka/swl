@@ -119,12 +119,12 @@ export default class ContactForm extends React.Component {
   <address className="card-text">
     <br />
     <br />
-    <h3><i>RIBBLE VALLEY</i> Tyre &amp; Auto Services Limited</h3>
-    Stonebridge Mill, Kestor Lane, Longridge, Preston, Lancashire. PR3 3AD
-    <a href="mailto:info@ribblevalleytyreandautoservices.co.uk"><p>info@ribblevalleytyreandautoservices.co.uk</p></a>
+    <h3><i>SWL Garden Structures</i></h3>
+
+    <a href="mailto:info@swlgardenstructures.co.uk"><p>info@swlgardenstructures.co.uk</p></a>
     <br />
     <br />
-    <h3><a href="tel:+44-1772-784000">T: 01772 784000</a> F: 01772 784008</h3>
+    <h3><a href="tel:+44-1777-700000">T: 01777 700000</a></h3>
   </address>
   </div>
   </div>
