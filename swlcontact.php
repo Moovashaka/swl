@@ -27,8 +27,8 @@
         $senderMessage = strip_tags($senderMessage);
         $senderMessage = stripslashes($senderMessage);
         // End Filtering
-        $email_to = "ribblevalleytyres@outlook.com";
-        $email_from = "website@ribblevalleytyreandautoservices.co.uk";
+        $email_to = "swlgardenstructures@outlook.com";
+        $email_from = "website@swlgardenstructures.co.uk";
         $subject = "You have a message from your website";
         // Begin Email Message Body
         $message = "

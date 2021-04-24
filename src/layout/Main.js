@@ -66,7 +66,7 @@ export default class Main extends React.Component {
         structure, bespoke and individual.</p>
       </div>
       <div className="col-lg-6">
-        <img className="img-fluid rounded" src="img/rvteamphoto.png" alt="car tyres, servicing, exhausts, preston" />
+        <img className="img-fluid rounded" src="img/rvteamphoto.png" alt="Garden Structures" />
       </div>
       </div>
 {/* <!-- /.row --> */}
@@ -77,7 +77,7 @@ export default class Main extends React.Component {
 
         <div className="card-deck">
         <div className="card">
-            <img className="card-img-top" src="img/motbay.png" alt="MOT, steering, suspension, car servicing, longridge preston" />
+            <img className="card-img-top" src="img/motbay.png" alt="Sheds,pagodas,outbuildings" />
         <div className="card-body">
           <h4 className="card-title">Pagoda</h4>
           <p className="card-text"><li>Bespoke &amp; Individual</li>
@@ -95,7 +95,7 @@ export default class Main extends React.Component {
       </div>
       </div>
       <div className="card">
-        <img className="card-img-top" src="img/tyresrack1.png" alt="tyres, brakes, servicing longridge preston" />
+        <img className="card-img-top" src="img/tyresrack1.png" alt="Sheds,pagodas,outbuildings,southport,merseyside" />
         <div className="card-body">
           <h4 className="card-title">Decking</h4>
 
@@ -108,24 +108,24 @@ export default class Main extends React.Component {
             <li>Member of the Independent Tyre Distributors Network</li>
             <br />
             We have a huge stock of tyres and can supply, fit &amp; balance your favorite brand or advise on something to suit your budget. </p>
-            <p>Why not visit our sister site <a href="http://www.longridgetyres.co.uk" target="_blank" rel="noopener noreferrer">Longridge Tyres</a> for more information. </p>
+            <p>Why not visit our sister site <a href="http://www.swlgardenstructures.co.uk" target="_blank" rel="noopener noreferrer">swlgardenstructures</a> for more information. </p>
             <br />
-            <a href="http://www.longridgetyres.co.uk" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Longridge Tyres</a>
+            <a href="http://www.longridgetyres.co.uk" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Garden Office</a>
       </div>
       </div>
       <div className="card">
-        <img className="card-img-top" src="img/servicebay.png" alt="car and van servicing preston" />
+        <img className="card-img-top" src="img/servicebay.png" alt="Sheds,pagodas,outbuildings,southport,preston,burscough,rufford,formby" />
         <div className="card-body">
           <h4 className="card-title">Outbuildings</h4>
           <p className="card-text">
-            <li>All makes &amp; models serviced and repaired. </li>
-            <li>Prestige vehicle servicing.</li>
-            <li>Fleet & Commercial servicing &amp; repairs</li>
+            <li>We can design & build to your Specification </li>
+            <li>Bespoke or choose one of our original designs.</li>
+            <li>Garden Office Structures</li>
             <br />
-            Since 2002 EU legislation (called Block Exemption) has freed up the car servicing market, giving you the choice of where you have your car serviced (providing manufacturer standards are met).
+            Built to your specifications, we will work with you to produce an outdoor space you can be proud of, We pride ourselves in a job well done.
 <br />
 <br />
-Have your vehicle serviced by the motoring professionals at Ribble Valley Tyre &amp; Auto Services, we take pride in doing the job properly</p>
+Have your outdoor structure built by people who care about the quality of materials and a superior standard of finish.We pride ourselves on having satisfied customers</p>
 <br />
 
 <a href="#contact" className="btn btn-primary page-scroll">Book Now</a>
