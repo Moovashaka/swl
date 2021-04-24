@@ -112,7 +112,7 @@ export default class ContactForm extends React.Component {
   <div className="row">
   <div className="col-sm-7">
     <div className="map-address">
-    <img src="https://maps.googleapis.com/maps/api/staticmap?center=stonebridge+mill+kestor+lane+longridge+lancashire&zoom=18&scale=1&size=600x300&maptype=roadmap&key=AIzaSyDP0xB9uhXm7e-L0rasGS3hLGCnRzDnYAk&format=png&visual_refresh=true" style={mapStyles} />
+    <img src="" style={mapStyles} />
 <br />
 <br />
   <div className="card-block">
@@ -177,11 +177,9 @@ export default class ContactForm extends React.Component {
         <div className="form-group">
           <select className="form-control" value={this.state.select} name="select" className="text-center" onChange={this.handleChange}>
             <option value="other">Something else</option>
-            <option value='tyres'>Tyres</option>
-            <option value="mot">MOT</option>
-            <option value="servicing">Servicing</option>
-            <option value="brakes">Brakes</option>
-            <option value="exhaust">Exhaust</option>
+            <option value='tyres'>Garden Office</option>
+            <option value="mot">Pagoda</option>
+            <option value="servicing">Shed</option>
           </select>
         </div>
           <br />
