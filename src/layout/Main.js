@@ -81,14 +81,13 @@ export default class Main extends React.Component {
         <div className="card-body">
           <h4 className="card-title">Pagoda</h4>
           <p className="card-text"><li>Bespoke &amp; Individual</li>
-          <li>Class VII Pre-checks & MOT's arranged</li>
-          <li>MOT re-tests</li>
+          <li>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</li>
+          <li>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</li>
           <br />
-          Your car's MOT test is about checking important parts and systems to ensure they meet the legal standards. Such as
-          Brakes, Steering, Tyres, Suspension Components, Exhaust Emissions &amp; Vehicle Safety Systems.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec cursus vitae nisi sit amet fringilla. Fusce scelerisque lacus quis cursus placerat. Mauris consectetur nunc id purus suscipit aliquet. Suspendisse convallis, turpis ut tincidunt malesuada, augue lacus consectetur nulla, sed posuere ipsum massa ac dui. Sed scelerisque venenatis nisi. Curabitur turpis eros, imperdiet nec magna id, ultrices venenatis diam. Sed leo tortor, sollicitudin quis magna vitae, rhoncus vehicula nibh. Proin mattis rhoncus eleifend. Pellentesque eleifend vitae risus at euismod. Nulla consectetur nulla consequat est commodo ornare. Curabitur sagittis eros id justo tempor eleifend.
           <br />
           <br />
-          Take advantage of our waiting room or leave your vehicle with us and collect later in the day.
+          Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
         </p>
         <br />
         <a href="#contact" className="btn btn-primary page-scroll">Book Now</a>
@@ -100,15 +99,15 @@ export default class Main extends React.Component {
           <h4 className="card-title">Decking</h4>
 
           <p className="card-text">
-            <li>All makes &amp; models supplied and fitted</li>
-            <li>Commercial &amp; Agricultural Tyres</li>
-            <li>Puncture repairs &amp; Tyre checks</li>
-            <li>Wheel Alignment, Tracking &amp; Balancing</li>
-            <li>Authorised Key Dealer for Toyo Tyres</li>
-            <li>Member of the Independent Tyre Distributors Network</li>
+            <li>Lorum ipsum placeholder text</li>
+            <li>Lorum ipsum placeholder text</li>
+            <li>Lorum ipsum placeholder text</li>
+            <li>Lorum ipsum placeholder text</li>
+            <li>Lorum ipsum placeholder text</li>
+            <li>Lorum ipsum placeholder text</li>
             <br />
-            We have a huge stock of tyres and can supply, fit &amp; balance your favorite brand or advise on something to suit your budget. </p>
-            <p>Why not visit our sister site <a href="http://www.swlgardenstructures.co.uk" target="_blank" rel="noopener noreferrer">swlgardenstructures</a> for more information. </p>
+            Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.. </p>
+            <p>Why not visit our ?FaceBook? page <a href="http://www.swlgardenstructures.co.uk" target="_blank" rel="noopener noreferrer">swlgardenstructures</a> for more information. </p>
             <br />
             <a href="http://www.longridgetyres.co.uk" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Garden Office</a>
       </div>
